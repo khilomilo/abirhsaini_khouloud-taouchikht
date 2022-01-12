@@ -1,18 +1,53 @@
 h1{
     font-family: "French Script MT";
     color: aliceblue;
-    font-size: 80;
+    
     background-image: linear-gradient(to bottom  ,rgba(113, 111, 75, 0.78) ,rgba(196, 196, 196, 0) 90% );
     background-repeat: no-repeat;
     width: auto;
     height: 100;
+    
+}
+p{
+    text-align: justify;
+}
+p.titre{
+    font-size:90;
+    float: left;
+    top: 0;
+    margin :-1;
 }
 p.home{
+    float: right;
     font-size: 50;
-    margin-left: 500;
-    margin-bottom: 900;
+    margin-right: 600;
+    text-decoration :underline;
     
-    
+}
+p.reservation{
+    float: right;
+    font-size: 50;
+    margin-right: -258px;
+    text-decoration :underline;
+
+}
+p.menu{
+    float: right;
+    font-size: 50;
+    margin-right: -358px;
+    text-decoration :underline;
+}
+p.aboutus {
+    float: right;
+    font-size: 50;
+    margin-right: -500px;
+    text-decoration :underline;
+}
+p.contact{
+    float: right;
+    font-size: 50;
+    margin-right: -625px;
+    text-decoration :underline;
 }
 
 body{
