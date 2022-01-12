@@ -50,20 +50,57 @@ p.contact{
     text-decoration :underline;
 }
 .rectangle{
+    float : lrft ;
     margin-left: 30px;
-    margin-top: 60px;
+    margin-top: 40px;
     width : 30%;
-    height: 40%;
+    height:40%;
     border: 1px SOLID #333;
     padding:3em;
     background-IMAGE :linear-gradient(to bottom  ,rgba(113, 111, 75, 0.78) ,rgba(196, 196, 196, 0) 90% ) ;
     font-family: "French Script MT";
+    text-align: center;
+    
 }
-.rectangle a {
-    font-size: 60px;
+.rectangle p.a {
+    margin-top:-36px;
+    text-align: center;
+    font-size : 5em;
     color: #AF1717;
+    font-style: italic;
+    text-decoration :underline
 }
 
+.rectangle p.ab {
+    color: white;
+    text-align: center;
+    margin-top:-49px;
+    font-size : 1em;
+
+}
+.rectangle2{
+    float : right;
+    margin-top: -15.82em;
+    width : 30%;
+    height:40%;
+    border: 1px SOLID #333;
+    padding:3em;
+    background-IMAGE :linear-gradient(to bottom  ,rgba(113, 111, 75, 0.78) ,rgba(196, 196, 196, 0) 90% ) ;
+    font-family: "French Script MT";
+    text-align: center;
+    
+}
+h2 {
+    text-align: justify;
+}
+.rectangle2 p {
+    margin-top:-36px;
+    text-align: center;
+    font-size : 3em;
+    color: #AF1717;
+    font-style: italic;
+    text-decoration :underline
+}
 body{
     
     background-image: url('C:/Users/pc/abirhsaini_khouloud-taouchikht/image/background.jpg');
