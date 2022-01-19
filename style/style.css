@@ -1,111 +1,202 @@
-h1{
+h1 {
     font-family: "French Script MT";
     color: aliceblue;
-    
-    background-image: linear-gradient(to bottom  ,rgba(113, 111, 75, 0.78) ,rgba(196, 196, 196, 0) 90% );
+    background-image: linear-gradient(to bottom, rgba(246, 187, 72, 1), rgba(196, 196, 196, 0) 90%);
     background-repeat: no-repeat;
     width: auto;
     height: 100;
-    
 }
-p{
+
+a {
     text-align: justify;
+    color: white;
 }
-p.titre{
-    font-size:90;
+
+a.titre {
+    font-size: 90;
     float: left;
     top: 0;
-    margin :-1;
+    margin: -1;
 }
-p.home{
+
+a.home {
     float: right;
     font-size: 50;
     margin-right: 600;
-    text-decoration :underline;
-    
+    text-decoration: underline;
 }
-p.reservation{
+
+a.reservation {
     float: right;
     font-size: 50;
     margin-right: -258px;
-    text-decoration :underline;
-
+    text-decoration: underline;
 }
-p.menu{
+
+a.menu {
     float: right;
     font-size: 50;
     margin-right: -358px;
-    text-decoration :underline;
+    text-decoration: underline;
 }
-p.aboutus {
+
+a.aboutus {
     float: right;
     font-size: 50;
     margin-right: -500px;
-    text-decoration :underline;
+    text-decoration: underline;
 }
-p.contact{
+
+a.contact {
     float: right;
     font-size: 50;
     margin-right: -625px;
-    text-decoration :underline;
+    text-decoration: underline;
 }
-.rectangle{
-    float : lrft ;
+
+.rectangle {
+    float: lrft;
     margin-left: 30px;
     margin-top: 40px;
-    width : 30%;
-    height:40%;
+    width: 30%;
+    height: 40%;
     border: 1px SOLID #333;
-    padding:3em;
-    background-IMAGE :linear-gradient(to bottom  ,rgba(113, 111, 75, 0.78) ,rgba(196, 196, 196, 0) 90% ) ;
+    padding: 3em;
+    background-IMAGE: linear-gradient(to bottom, rgba(246, 187, 72, 1), rgba(196, 196, 196, 0) 90%);
     font-family: "French Script MT";
     text-align: center;
-    
 }
+
 .rectangle p.a {
-    margin-top:-36px;
+    margin-top: -36px;
     text-align: center;
-    font-size : 5em;
+    font-size: 5em;
     color: #AF1717;
     font-style: italic;
-    text-decoration :underline
+    text-decoration: underline
 }
 
 .rectangle p.ab {
     color: white;
     text-align: center;
-    margin-top:-49px;
-    font-size : 1em;
-
+    margin-top: -49px;
+    font-size: 1em;
 }
-.rectangle2{
-    float : right;
+
+.rectangle2 {
+    float: right;
     margin-top: -15.82em;
-    width : 30%;
-    height:40%;
+    width: 30%;
+    height: 40%;
     border: 1px SOLID #333;
-    padding:3em;
-    background-IMAGE :linear-gradient(to bottom  ,rgba(113, 111, 75, 0.78) ,rgba(196, 196, 196, 0) 90% ) ;
+    padding: 3em;
+    background-IMAGE: linear-gradient(to bottom, rgba(246, 187, 72, 1), rgba(196, 196, 196, 0) 90%);
     font-family: "French Script MT";
     text-align: center;
-    
 }
+
 h2 {
     text-align: justify;
 }
+
 .rectangle2 p {
-    margin-top:-36px;
+    margin-top: -36px;
     text-align: center;
-    font-size : 3em;
+    font-size: 3em;
     color: #AF1717;
     font-style: italic;
-    text-decoration :underline
+    text-decoration: underline
 }
-body{
-    
-    background-image: url('C:/Users/pc/abirhsaini_khouloud-taouchikht/image/background.jpg');
+
+body {
+    background-image: url('C:/Users/pc/abirhsaini_khouloud-taouchikht/image/Inside_Le_Procope.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    
-    
+    background-size: cover;
+}
+
+hr {
+    margin-top: 30px;
+}
+
+h2.reservation {
+    font-size: 70px;
+    color: black;
+    text-align: center;
+}
+
+#name {
+    background-color: rgba(246, 187, 72, 1);
+    width: 30%;
+    height: 9%;
+    text-align: center;
+    border-radius: 10px;
+    float: left;
+    padding: 20px;
+}
+
+#email {
+    background-color: rgba(246, 187, 72, 1);
+    width: 30%;
+    height: 9%;
+    text-align: center;
+    border-radius: 10px;
+    float: center;
+    margin-left: 55px;
+}
+
+#phone {
+    background-color: rgba(246, 187, 72, 1);
+    width: 30%;
+    margin-top: -55px;
+    height: 9%;
+    padding: auto;
+    text-align: center;
+    border-radius: 10px;
+    float: right;
+}
+
+#date {
+    background-color: rgba(246, 187, 72, 1);
+    width: 30%;
+    margin-top: -55px;
+    height: 9%;
+    padding: auto;
+    text-align: center;
+    border-radius: 10px;
+    float: left;
+    margin-top: 100px;
+}
+
+#time {
+    background-color: rgba(246, 187, 72, 1);
+    width: 30%;
+    height: 9%;
+    text-align: center;
+    border-radius: 10px;
+    float: center;
+    margin-left: 55px;
+    margin-top: 100px;
+}
+
+#number {
+    background-color: rgba(246, 187, 72, 1);
+    width: 30%;
+    height: 9%;
+    padding: auto;
+    text-align: center;
+    border-radius: 10px;
+    float: right;
+    margin-top: -55px;
+}
+
+#table {
+    background-color: #AF1717;
+    width: 30%;
+    height: 9%;
+    text-align: center;
+    border-radius: 30px;
+    margin-top: 100px;
+    float: center;
+    margin-left: 34.9%;
 }
