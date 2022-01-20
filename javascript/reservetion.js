@@ -38,22 +38,22 @@ button.addEventListener("click", bbb, false);
 
 function bbb() {
     if (!email.checkValidity()) {
-        alert(" email est incorrecte veuillez entrer un email correcte ")
+        alert(" email est incorrecte veuillez entrer un email correcte ");
     }
     if (!date.checkValidity()) {
-        alert(" date est incorrecte veuillez entrer une date correcte ")
+        alert(" date est incorrecte veuillez entrer une date correcte ");
     }
     if (!time.checkValidity()) {
-        alert("time est incorrecte veuillez entrer un horaire correcte ")
+        alert("time est incorrecte veuillez entrer un horaire correcte ");
     }
     if (!number.checkValidity()) {
-        alert("veuiller entrer le nombre des personnes")
+        alert("veuiller entrer le nombre des personnes");
     }
     if (!name1.checkValidity()) {
-        alert("veuiller entrer votre nom")
+        alert("veuiller entrer votre nom");
 
     } else {
-        alert("merci , votre demande est enregistré")
+        alert("merci , votre demande est enregistré");
     }
 
 }
