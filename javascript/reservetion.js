@@ -4,6 +4,7 @@ var date = document.getElementById("date");
 var time = document.getElementById("time");
 var number = document.getElementById("number");
 var name1 = document.getElementById("name");
+var name11 = document.getElementsByClassName("name")
 
 email.addEventListener("input", aa, false);
 date.addEventListener("input", bb, false);
@@ -13,8 +14,7 @@ name1.addEventListener("input", dd, false);
 
 
 function aa() {
-    var rep1 = email.checkValidity(); //pour s assurrer du fonctionnement
-    console.log(rep1);
+
 }
 
 
@@ -30,7 +30,7 @@ function cc() {
 
 function dd() {
     var rep4 = name1.checkValidity();
-    console.log(rep4);
+
 }
 
 
@@ -52,8 +52,14 @@ function bbb() {
     if (!name1.checkValidity()) {
         alert("veuiller entrer votre nom");
 
-    } else {
+    }
+    if (email.checkValidity() && date.checkValidity() && number.checkValidity() && time.checkValidity() && name1.checkValidity()) {
         alert("merci , votre demande est enregistré");
+        mysql = require("./app1 ");
+        const express = require("express");
+
+
+
     }
 
 }

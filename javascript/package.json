@@ -1,0 +1,19 @@
+{
+    "name": "javascript",
+    "version": "1.0.0",
+    "description": "",
+    "main": "reservetion.js",
+    "scripts": {
+
+        "start": "node reservetion"
+
+
+    },
+    "type": "commonjs",
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "nodemon": "^2.0.15"
+    }
+}

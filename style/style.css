@@ -109,7 +109,7 @@
         }
         
         body {
-            background-image: url('C:/Users/pc/abirhsaini_khouloud-taouchikht/image/Inside_Le_Procope.jpg');
+            background-image: url('../image/SLIDER-1.jpeg');
             background-repeat: no-repeat;
             background-size: cover;
             background-size: cover;
@@ -209,7 +209,7 @@
         .h1 {
             display: inline-block;
             width: 30%;
-            margin-top: 10%;
+            margin-top: 3%;
         }
         
         .breakfast {
@@ -234,20 +234,23 @@
         }
         
         #breakfast {
-            color: white;
+            background-color: rgba(246, 187, 72, 1);
+            color: brown;
             font-size: 40px;
-            margin-left: 10%;
         }
         
         #lunch {
-            color: white;
+            background-color: rgba(246, 187, 72, 1);
+            color: brown;
             font-size: 40px;
             margin-left: 39%;
             margin-top: -7%;
         }
         
         #dinner {
-            color: white;
+            color: brown;
+            background-color: rgba(246, 187, 72, 1);
+            background-position-x: 10px;
             font-size: 40px;
             margin-left: 80%;
             margin-top: -32%;
