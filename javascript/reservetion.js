@@ -55,11 +55,9 @@ function bbb() {
     }
     if (email.checkValidity() && date.checkValidity() && number.checkValidity() && time.checkValidity() && name1.checkValidity()) {
         alert("merci , votre demande est enregistré");
-        mysql = require("./app1 ");
+
         const express = require("express");
-
-
-
+        const app = express();
     }
 
 }

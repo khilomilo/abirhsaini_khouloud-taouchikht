@@ -1,12 +1,11 @@
-var mysql = require("mysql");
-var con = mysql.createConnection({
-    host: "localhost",
-    user: "root",
-    password: "aseds"
-})
-con.connect((err) => {
-    if (err) throw err;
-    console.log("connected")
+const express = require("express");
+const app = express();
+const nsduRouter = require("./routers/nsdu");
 
+app.set("view engine", "ejs");
+app.listen(5000);
+
+app.use("/nsdu", nsduRouter)
+app.get("/", (req, res) => {
+    res.render("menu");
 });
-mysql.exports() = mysql;
