@@ -43,24 +43,24 @@ return (
        <div className='block1'>
         <div className='name' >
 
-                <input type="text " id="name" value="name" size="10 "  required />
+                <input type="text " id="name" placeholder="name" size="10 "  required />
             </div>
             <div > 
-                <input type="email" id="email" value="--@gmail.com" size="10 " required />
+                <input type="email" id="email" placeholder="--@gmail.com" size="10 " required />
             </div>
             <div>
-                <input type="text" name="phone" id="phone" value="phone " size="10 " required />
+                <input type="text" name="phone" id="phone" placeholder="phone" size="10 " required />
             </div>
             </div>
             <div className='block2'>
                 <div>
-                <input type="date" id="date"  value="AAAA-MM-DD" min="2021-01-01" max="2022-12-31" required/>
+                <input type="date" id="date"  placeholder="AAAA-MM-DD" min="2021-01-01" max="2022-12-31" required/>
             </div>
             <div>
-                <input type="time" id="time" name="appt" min="09:00" max="18:00" required />
+                <input type="time" id="time" placeholder="appt" min="09:00" max="18:00" required />
             </div>
             <div>
-                <input type="number" id="number" value="number of people " size="10 " required />
+                <input type="number" id="number" placeholde="number of people " size="10 " required />
             </div>
             </div>
             <div>
