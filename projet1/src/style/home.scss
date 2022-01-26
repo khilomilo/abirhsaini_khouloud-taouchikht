@@ -1,0 +1,50 @@
+ .rectangle {
+     margin-left: 3em;
+     padding-top: -70px;
+     float: right;
+     width: 500px;
+     height: 500px;
+     border: 1px SOLID #333;
+     background-IMAGE: linear-gradient(to bottom, rgba(246, 187, 72, 1), rgba(196, 196, 196, 0) 90%);
+     font-family: "French Script MT";
+     text-align: center;
+ }
+ 
+ .rectangle p.a {
+     text-align: center;
+     font-size: 6em;
+     color: #912121;
+     font-style: italic;
+     text-decoration: underline
+ }
+ 
+ .rectangle p.ab {
+     color: rgb(129, 17, 17);
+     text-align: center;
+     font-size: 2em;
+ }
+ 
+ .rectangle2 {
+     margin-left: 9em;
+     float: right;
+     width: 500px;
+     height: 500px;
+     border: 1px SOLID #333;
+     background-IMAGE: linear-gradient(to bottom, rgba(246, 187, 72, 1), rgba(196, 196, 196, 0) 90%);
+     font-family: "French Script MT";
+     text-align: center;
+ }
+ 
+ .h2 {
+     text-align: justify;
+     display: inline-flex;
+ }
+ 
+ .rectangle2 p {
+     padding-top: 30px;
+     text-align: center;
+     font-size: 4em;
+     color: #AF1717;
+     font-style: italic;
+     text-decoration: underline
+ }
