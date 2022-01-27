@@ -1,0 +1,104 @@
+<html>
+
+
+<title> dinner page</title>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Zen Tokyo Zoo' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Fahkwang' rel='stylesheet'>
+    <link  href='https://fonts.googleapis.com/css?family=Fanwood+Text' rel='stylesheet'>
+    <script type="text/javascript" src="breakfast.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Downloads/bootstrap-5.1.3-dist/css/bootstrap.css">
+    <meta charset="UTF-8">
+
+</head>
+
+<body>
+    
+    <div  class="container-fluid">
+        <a class="titre" href="index.html">you first</a>
+        <a class="home" href="index.html">home</a>
+        <a class="reservation" href="reservation.html">reservation </a>
+        <a class="menu" href="">menu</a>
+        <a class="aboutus " href=""> about us </a>
+        <a class="contact" href=""> contact</a>
+        
+
+    </div>
+  
+    <div class="container">
+        <nav class="navbar navbar-expand-sm navbar-dark ">
+            
+            <strong class="brk">our dinner menu</strong>
+    
+            
+           
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="#">soup <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="#">Pasta</a>
+                <a class="nav-item nav-link" href="#">Pizza</a>
+                
+              </div>
+            </div>
+            
+        </nav>
+    </div>
+    
+    <section class="container-md ">
+        <div class="root"></div>
+        <div class="plat1">
+            <a class="photo1"><img class="photo" src="Pictures/Italian-Meatball-Soup-17.webp" alt="Italian-Meatball-Soup"></a>
+            <p class="o"><strong>Italian Meatball Soups</strong> <br>
+                soup + meatballs! A tomato-y broth, noodles and some mini Italian pork meatballs<br>
+            <em>$23.00</em></p>
+            <div>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+            </div>
+        </div>
+        
+    </div>
+    <div class="root">
+        <div class="plat2">
+            <a class="photo2"><img class="photo" src="Pictures/Quick_Easy_Chicken_Noodle_Soup_11.webp" alt="Quick_Easy_Chicken_Noodle_Soup "></a>
+            <p class="o"><strong>Quick and Easy Chicken Noodle Soup</strong><br>
+                Chicken broth, veggies, some dried herbs.<br>
+            <em>$25.00</em></p>
+            <div>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star "></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+            </div>
+        </div>
+        
+    </div>
+        <div class="plat3">
+            <a class="photo3"><img class="photo" src="Pictures/African-Peanut-Soup-11.webp" alt="African-Peanut-Soup "></a>
+            <p class="o"><strong>African Peanut Soup</strong><br>
+            Fresh  ginger Jalapeno diced,  Tomato paste Canned crushed tomatoes .Sweet potatoes<br>
+            <em>$19.00</em></p>
+            <div>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+            </div>
+        </div>
+        
+
+    </section>
+    </section>
+    
+    <script src="Downloads/bootstrap-5.1.3-dist/js/bootstrap.js"></script>
+</body>
+
+</html>
