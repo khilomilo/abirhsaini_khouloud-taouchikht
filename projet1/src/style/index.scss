@@ -1,32 +1,28 @@
-    .navigation {}
-    
-    .header {
-        font-family: "French Script MT";
-        font-size: 38px;
-        color: aliceblue;
-        background-image: linear-gradient(to bottom, rgba(246, 187, 72, 1), rgba(196, 196, 196, 0) 90%);
-        background-repeat: no-repeat;
-        width: 100%;
-        height: 100;
+    .youfirst {
+        padding-left: -100px;
     }
     
     a {
-        margin: 27px 0px;
+        font-family: "French Script MT";
+        background-IMAGE: linear-gradient(to bottom, rgba(246, 187, 72, 1), rgba(196, 196, 196, 0) 90%);
+        font-size: 30px;
         float: right;
         padding: 10px;
         position: relative;
+        direction: rtl;
     }
     
     a:visited {
-        color: red
+        color: rgb(90, 18, 18);
     }
     
     .nan-active {
         &::after {
             content: "";
             width: 100px;
+            background-IMAGE: linear-gradient(to bottom, rgba(246, 187, 72, 1), rgba(196, 196, 196, 0) 90%);
             height: 3px;
-            background-color: aqua;
+            background-color: rgb(202, 132, 28);
             position: absolute;
             top: 10%;
             transform: translateX(-100px);
@@ -34,6 +30,9 @@
     }
     
     .brows {
+        margin-top: -50px;
+        margin-left: -10px;
+        margin-right: -30px;
         background-image: url("../assets/images/SLIDER-1.jpeg");
         width: 1250px;
         height: 900px;

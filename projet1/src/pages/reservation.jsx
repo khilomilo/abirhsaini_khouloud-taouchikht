@@ -17,5 +17,5 @@ const Reservation = () => {
     );
 };
 
-ReactDOM.render(<Reservation />,document.getElementById("root.Reservation"))
+
 export default Reservation;
