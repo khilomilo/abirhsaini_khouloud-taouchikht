@@ -10,7 +10,7 @@ const Reservation = () => {
         <div className='reservation'>
             <div className="a"> <Navigation  /></div>
            
-            <div className="b"><Input  /></div>
+            <div className="b"><Input state="book a table "/></div>
             
 
             </div>

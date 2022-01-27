@@ -1,5 +1,5 @@
     .youfirst {
-        padding-left: -100px;
+        color: aliceblue;
     }
     
     a {
@@ -14,19 +14,6 @@
     
     a:visited {
         color: rgb(90, 18, 18);
-    }
-    
-    .nan-active {
-        &::after {
-            content: "";
-            width: 100px;
-            background-IMAGE: linear-gradient(to bottom, rgba(246, 187, 72, 1), rgba(196, 196, 196, 0) 90%);
-            height: 3px;
-            background-color: rgb(202, 132, 28);
-            position: absolute;
-            top: 10%;
-            transform: translateX(-100px);
-        }
     }
     
     .brows {

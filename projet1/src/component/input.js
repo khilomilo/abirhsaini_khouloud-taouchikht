@@ -34,7 +34,7 @@ function bbb() {
     }
 }
 
-function Input(){
+function Input(props){
 
 
 return (
@@ -64,13 +64,11 @@ return (
             </div>
             </div>
             <div>
-                <button  className="table" onClick={bbb}> book a table</button>
+                <button  className="table" onClick={bbb}>{props.state}</button>
             </div>
         </div>
             
      
-
-    
 );
     
     }
