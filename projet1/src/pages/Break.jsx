@@ -1,19 +1,19 @@
 import Navigation from '../component/navigation';
 import "../style/index.scss"
 import "../style/breakfast.scss"
-import Produit from '../component/produit';
+
 import img1 from '../assets/image/Baked-Eggs-with-Swiss-Chard-and-Green-Olives-14.webp';
 import img2 from '../assets/image/Granola-with-Figs-Almonds-and-Coconut-1.webp';
 import img3 from '../assets/image/raspberry-oatmeal-breakfast-bars-7.webp';
 import "@fontsource/zen-tokyo-zoo";
 import "@fontsource/fanwood-text";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Rate from "../component/Rate";
+
 import "react-bootstrap";
 import React, { useState } from "react";
 import { Link } from 'react-router-dom';
 const Break = () => {
-  const [rating, setRating] = useState(0);
+  
 
     
    
@@ -36,56 +36,66 @@ const Break = () => {
         
     </nav>
 </div>
-        <div className="plat1">
-          <a className="photo1"><img className="photo" src={img1} alt="baked eggs " /></a>
+    <div className='container'>
+        
+      <div className="row">
+        <div className='col'>
           <Link to="/Contact">
           <p className="o"><strong>Morning eggs</strong> <br />
             Baked Eggs with Swiss Chard and Green Olives<br />
             <em>$13.00</em></p>
-            <h2>Rate me</h2>
-          <p>Rating component</p>
+            
           </Link>
-          <Rate rating={rating} onRating={(rate) => setRating(rate)} /> 
+          </div>
+          <div className='col'>
+          <a className="photo1"><img className="photo" src={img1} alt="baked eggs " /></a>
+          </div>
+          
+          <button type="button" class="btn btn-warning">buy now!!</button>
+         
          
           
           
         </div>
-        <div className="plat2">
-        <Link to="/Contact">
-          <a className="photo2"><img className='photo' src={img2} alt='granola' /></a>
+        
+        
+        <div className="row">
+        
           
+         <div className='col'>
+          <Link to="/Contact">
           <p className="o"><strong>Granola </strong><br />
             with Figs, Almonds and Coconut<br />
             <em>$20.00</em></p>
             </Link>
-          <div>
-            <span className="fa fa-star checked" />
-            <span className="fa fa-star checked" />
-            <span className="fa fa-star " />
-            <span className="fa fa-star" />
-            <span className="fa fa-star" />
-          </div>
+            </div> 
+            <div className='col'>
+            <a className="photo2"><img className='photo' src={img2} alt='granola' /></a>
+            </div>
+        
+        <button type="button" class="btn btn-warning">buy now!!</button>
         </div>
-        <div className="plat3">
+        <div className="row">
+        <div className="col">
         <Link to="/Contact">
-          <a className="photo3"><img className="photo" src={img3} alt="raspberry-oatmeal-breakfast-bars " /></a>
+          
           <p className="o"><strong>Raspberry Breakfast Bar</strong><br />
             Blackberries, Blueberries,Plums Peaches and nectarines<br />
             <em>$19.00</em></p>
             </Link>
-          <div>
-            <span className="fa fa-star checked" />
-            <span className="fa fa-star checked" />
-            <span className="fa fa-star checked" />
-            <span className="fa fa-star checked" />
-            <span className="fa fa-star" />
-          </div>
+            
+        </div>
+        <div className="col">
+        <a className="photo3"><img className="photo" src={img3} alt="raspberry-oatmeal-breakfast-bars " /></a>
+        </div>
+        <button type="button" class="btn btn-warning">buy now!!</button>
         </div>
         
         
       </div>
     
-
+</div>
     );
 }
 export default Break;
+ 
